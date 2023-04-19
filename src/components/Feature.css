@@ -1,0 +1,42 @@
+.features-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.feature {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px 25px;
+  width: 32%;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+.feature:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.5s ease-in-out;
+}
+.icon {
+  font-size: 2.5rem;
+  color: #54b963;
+  font-weight: 900;
+}
+.feature h2 {
+  font-size: 1.3rem;
+  margin: 20px 0;
+}
+.feature p {
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  line-height: 30px;
+}
+@media screen and (max-width: 850px) {
+  .features-container {
+    flex-direction: column;
+  }
+  .feature {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
