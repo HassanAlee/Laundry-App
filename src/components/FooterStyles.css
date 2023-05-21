@@ -1,0 +1,43 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 4rem 6rem;
+  margin-top: 8vw;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: start;
+}
+.top i {
+  font-size: 2rem;
+  color: #fff;
+  margin-left: 1rem;
+}
+.top i:hover {
+  color: #01959a;
+}
+.footer h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.footer h3 a {
+  color: #54b963;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 4rem 2rem;
+  }
+  .footer i {
+    margin: 2rem 2rem 0 0;
+  }
+  /* .top {
+    text-align: center;
+  } */
+}
