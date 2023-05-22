@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../assets/discount.jpg";
 import Navbar from "../components/Navbar";
 import HeroHome from "../components/HeroHome";
 import Features from "../components/Features";
@@ -16,7 +17,7 @@ const Home = () => {
       <Features />
       <Experience />
       <Services />
-      <Discount />
+      <Discount image={image} />
       <Works />
       <Blog />
       <Footer />

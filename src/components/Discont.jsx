@@ -1,10 +1,9 @@
 import "./DiscountStyles.css";
 import React from "react";
-import image from "../assets/discount.jpg";
 import { FaTshirt, FaTruck } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Discount = () => {
+const Discount = ({ image }) => {
   return (
     <>
       <section className="discount space">
