@@ -5,6 +5,7 @@ import HeroMid from "../components/HeroMid";
 import Experience from "../components/Experience";
 import Statistics from "../components/Statistics";
 import Discount from "../components/Discont";
+import Members from "../components/Members";
 const About = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const About = () => {
       <Experience />
       <Statistics />
       <Discount image={image} />
+      <Members />
     </>
   );
 };

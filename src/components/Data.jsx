@@ -8,6 +8,14 @@ import { FaTshirt, FaTruck, FaFan } from "react-icons/fa";
 import img1 from "../assets/blog1.jpg";
 import img2 from "../assets/blog2.jpg";
 import img3 from "../assets/blog3.jpg";
+import member1 from "../assets/Team 1.jpg";
+import member2 from "../assets/Team 2.jpg";
+import member3 from "../assets/Team 3.jpg";
+import {
+  SlSocialFacebook,
+  SlSocialInstagram,
+  SlSocialTwitter,
+} from "react-icons/sl";
 export const NavData = [
   {
     url: "/",
@@ -126,5 +134,32 @@ export const Stats = [
   {
     number: 667,
     text: "stem & ironed",
+  },
+];
+// data for team members
+export const Team = [
+  {
+    id: 1,
+    name: "aida bugg",
+    fb: <SlSocialFacebook />,
+    insta: <SlSocialInstagram />,
+    twitter: <SlSocialTwitter />,
+    img: member1,
+  },
+  {
+    id: 2,
+    name: "jamic nasium",
+    fb: <SlSocialFacebook />,
+    insta: <SlSocialInstagram />,
+    twitter: <SlSocialTwitter />,
+    img: member2,
+  },
+  {
+    id: 3,
+    name: "henry itondo",
+    fb: <SlSocialFacebook />,
+    insta: <SlSocialInstagram />,
+    twitter: <SlSocialTwitter />,
+    img: member3,
   },
 ];
